@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: gtav;
+    src: url(pricedown\ bl.otf) format(opentype); 
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url(coolvetica\ rg.otf) format(opentype);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf) format(truetype);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, #404040 100%, rgb(255, 255, 255) 20%);
+    height: 101px;
+}
+
+header > img{
+    padding-left: 15px;
+    
+}
+
+header nav{
+    background: #188D45;
+    width: 219px;
+    display: flex;
+
+}
+
+header nav a{
+    font-family: coolvetica;
+    font-size: 32px;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+header nav a:hover{
+    background-color: #1a6637;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #404040;
+}
+
+.primeira{
+    width: 1440px;
+    height: 604px;
+    display: flex;
+    background-color: #404040;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.primeira p{
+    width: 741px;
+    height: 268px;
+    padding-left: 50px;
+    color: white;
+    font-family: coolvetica;
+    font-family: bebas;
+    font-size: 32px;
+}
+
+.primeira img{
+    padding-right: 30px;
+}
+
+.segunda{
+    width: 1440px;
+    height: 604px;
+    display: flex;
+    background-color: #404040;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.segunda p{
+    width: 741px;
+    height: 268px;
+    padding-right: 50px;
+    color: white;
+    font-family: coolvetica;
+    font-family: bebas;
+    font-size: 32px;
+}
+
+.segunda img{
+    padding-left: 30px;
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
